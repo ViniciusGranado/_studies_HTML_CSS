@@ -8,3 +8,11 @@ div#corpo{
     margin: 40px auto auto auto;
     padding: 30px 20px 20px 20px;
 }
+p{
+    text-align: justify;
+}
+div#list{
+    position: relative;
+    left: 50%;
+    transform: translateX(-42%);
+}
