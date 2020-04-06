@@ -1,0 +1,12 @@
+body{
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: justify;
+}
+ul{
+    list-style: square;
+}
+li{
+    text-decoration: underline;
+    padding: 2px;
+}
