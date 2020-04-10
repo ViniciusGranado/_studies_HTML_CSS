@@ -1,0 +1,27 @@
+.video{
+    text-align: center;
+    
+}
+iframe{
+    display: inline-block;
+    width: 560px;
+    height: 315px;
+    
+}
+div.links{
+    font-size: 15pt;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+a{  
+    color: #FFF;
+    text-decoration: none;
+}
+img.back-button{
+    margin-top: 10px;
+}
+

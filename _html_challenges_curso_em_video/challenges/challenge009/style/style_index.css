@@ -1,0 +1,12 @@
+body{
+    background-color: #000;
+}
+h1{
+    color: #FFF;
+    font-size: 30pt;
+    text-align: center;
+}
+.videos-menu{    
+    width: 405px;
+    margin: auto;
+}
