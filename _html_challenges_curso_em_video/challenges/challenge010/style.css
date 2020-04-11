@@ -1,0 +1,9 @@
+body{
+    background-image: url('imagens/espaco.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: rgb(5, 8, 15);
+}
+img{
+    width: 25%;
+}
