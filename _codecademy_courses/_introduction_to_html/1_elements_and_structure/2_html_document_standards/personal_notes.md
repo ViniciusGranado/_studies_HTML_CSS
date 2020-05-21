@@ -1,4 +1,4 @@
-# Class 1: HTML document standards
+# Class 2: HTML document standards
 
 ## Concepts
 
@@ -60,7 +60,7 @@ Comments also let you test parts of your code. By putting some portion of the co
 
 ## Elements saw in this class:
 
-###Tags
+### Tags
 
 - `<title>`: It's placed inside the `<head>`element. Represents the title of the page, that is displayed in the tab on the top of the browser.
 

@@ -58,7 +58,7 @@ There are innumerous attributes, some of them are `class`, `id`, and `src`. You 
 
 ## Elements saw in this class:
 
-###Tags
+### Tags
 - `<body>`: Defines the content part of the code. Everything in an HTML document that is content related is put inside this tag.
  
 - `<h1>`-`<h6>`: They are heading tags, and defines a title. They are used in order of importance, `<h1>` being a main title, and `<h2>` being a subtitle of `<h1>`. Example:
