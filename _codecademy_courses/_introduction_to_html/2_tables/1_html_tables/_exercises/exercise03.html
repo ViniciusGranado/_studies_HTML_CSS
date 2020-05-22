@@ -1,0 +1,81 @@
+<!--This exercise will cover table elements: <table>, <tr>, <th>, <td>, and attributes
+    rowspan, colspan, and scope-->
+<!DOCTYPE html>
+<html lang='en'>
+
+    <head>
+        <meta charset='UTF-8'>
+        <title>Exercise 03</title> 
+        <style>
+            table{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th, td{
+                border: 1px solid black;
+                width: 50px;
+                height: 30px;
+                padding: 10px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <th colspan='5'>Monthly Products Sales</th>
+            </tr>
+
+            <tr>
+                <td></td>
+                <th scope='col'>Tv's</th>
+                <th scope='col'>Audio Systems</th>
+                <th scope='col'>VideoGames</th>
+                <th scope='col'>Smartphones</th>
+
+            </tr>
+
+            <tr>
+                <th scope='row'>John Evans</td>
+                <td>13</td>
+                <td>7</td>
+                <td>18</td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <th scope='row'>Sara Hills</td>
+                <td>10</td>
+                <td>14</td>
+                <td>12</td>
+                <td>36</td>
+            </tr>
+
+            <tr>
+                <th scope='row'>Holly White</td>
+                <td>14</td>
+                <td>7</td>
+                <td>16</td>
+                <td>19</td>
+            </tr>
+
+            <tr>
+                <th scope='row'>Mark Davis</td>
+                <td>4</td>
+                <td>8</td>
+                <td>14</td>
+                <td>12</td>
+            </tr>
+
+            <tr>
+                <th scope='row'>Total Sales</td>
+                <td>41</td>
+                <td>36</td>
+                <td>60</td>
+                <td>87</td>
+            </tr>
+        </table>
+    </body>
+
+</html>
