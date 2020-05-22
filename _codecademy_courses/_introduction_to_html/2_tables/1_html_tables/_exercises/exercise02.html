@@ -1,0 +1,71 @@
+<!--This exercise will cover table elements: <table>, <tr>, <th>, <td>, and attributes
+    rowspan, colspan, and scope-->
+<!DOCTYPE html>
+
+    <head>
+        <meta charset='UTF-8'>
+        <title>Exercise 02</title>
+        <style>
+            table{
+                border: 1px solid black;
+                border-collapse: collapse;
+                table-layout: fixed;
+            }
+            th, td{
+                border: 1px solid black;
+                height: 50px;
+                padding: 1ch;
+            }
+        </style>
+    </head>        
+
+    <body>
+
+        <table>
+            <tr>
+                <th scope="col">Band</th>
+                <th scope="col">Lead Vocals</th>
+                <th scope="col">Lead Guitar</th>
+                <th scope="col">Best-Selling Album</th>
+                <th scope="col">Still Active?</th>
+            </tr>
+
+            <tr>
+                <td>Arctic Monkeys</td>
+                <td>Alex Turner</td>
+                <td>Jamie Cook</td>
+                <td>Whatever People Say I Am That's What I'm Not</td>
+                <td>Yes</td>
+            </tr>
+
+            <tr>
+                <td>Nirvana</td>
+                <td colspan='2'>Kurt Cobain</td>
+                <td>Nevermind</td>
+                <td rowspan="2">No</td>
+            </tr>
+
+            <tr>
+                <td>The Jimi Hendrix Experience</td>
+                <td colspan='2'>Jimi Hendrix</td>
+                <td>Are You Experienced</td>
+            </tr>
+
+            <tr>
+                <td>Green Day</td>
+                <td colspan='2'>Billie Joe Armstrong</td>
+                <td>American Idiot</td>
+                <td>Yes</td>
+            </tr>
+
+            <tr>
+                <td>Black Sabbath</td>
+                <td>Ozzy Osbourne</td>
+                <td>Tony Iommi</td>
+                <td>Paranoid</td>
+                <td>No</td>
+            </tr> 
+        </table>
+    </body>
+
+</head>
