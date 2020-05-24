@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+    <head>
+        <meta charset='UTF-8'>
+        <title>Exercise01</title>
+        <link rel='stylesheet' href='css/reset.css'>
+        <link rel="stylesheet" href="css/exercise01_style.css">
+    </head>
+
+    <body>
+        <div class='page_body'>
+            <h1>Enter the information bellow, and we will contact you:</h1>
+            <form>
+                <div class="input_area">
+                    <p><label for="first_name">First name: </label><input type='text' id='first_name' name='first_name' required pattern='[a-zA-Z]+'></p>
+                    <p><label for="last_name">Last name: </label><input type='text' id='last_name' name='last_name' required pattern='[a-zA-Z]+'></p>
+                    <p><label for="email">E-mail: </label><input type="email" name='email' id='email' required></p>
+                    <p><label for="phone">Phone number: </label><input type="tel" name='phone' id='phone' pattern='[0-9]{0,15}'></p>
+                </div>
+
+                <div class='button_area'>
+                    <input type="submit" value="Send" name='submit_button' id='submit_button' class='button submit_button'>
+                    <input type="reset" value="Clear" name='reset_button' id='reset_button' class='button reset_button'>
+                </div>
+                
+            </form>
+            
+        </div>
+    </body>
+</html>
